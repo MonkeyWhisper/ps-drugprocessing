@@ -9,6 +9,7 @@ Config.Delays = {
 	thionylchlorideProcessing = 1000 * 10,
 }
 
+
 Config.CircleZones = {
 	WeedField = {coords = vector3(2224.64, 5577.03, 53.85), name = ('Weed Farm'), radius = 100.0},
 	WeedProcessing = {coords = vector3(2329.12, 2571.86, 46.68), name = ('Weed Process'), radius = 100.0},
@@ -30,7 +31,7 @@ Config.CircleZones = {
 	CokeBrick = {coords = vector3(1099.57, -3194.35, -38.99), name = ('Brick Up Packages'), radius = 20.0},--vector3(1099.57, -3194.35, -38.99)
 	
 	HeroinField = {coords = vector3(-2339.15, -54.32, 95.05), name = ('Heroin'), radius = 100.0},
-	HeroinProcessing = {coords = vector3(1413.37, -2041.74, 52.0), name = ('Heroin Process'), radius = 100.0},
+	HeroinProcessing = {coords = vector3(1384.63, -2080.22, 52.61), name = ('Heroin Process'), radius = 100.0},
 
 	lsdProcessing = {coords = vector3(2503.84, -428.11, 92.99), name = ('LSD process'), radius = 100.0},
 
@@ -63,43 +64,4 @@ Config.WeedLab = {
     ["exit"] = {
         coords = vector4(1088.68, -3187.68, -38.99, 176.04), -- GTA DLC Biker Cocaine Lab -- vector3(1088.68, -3187.68, -38.99)
     },]]--
-}
-
-
---------------------------------
--- DRUG CONFIG AMOUNTS --
---------------------------------
-
---------------------------------
--- COKE PROCESSING AMOUNTS --
---------------------------------
-
-Config.CokeProcessing = {
-	CokeLeaf = 1, -- Amount of Leaf Needed to Process
-	ProcessCokeLeaf = math.random(2,7), -- Amount of Coke Received
-	-- Processing Small Bricks --
-	Coke = 10, -- Amount of Coke Needed for Small Brick
-	BakingSoda = 5, -- Amount of Baking Soda Needed for Small Brick
-	SmallCokeBrick = math.random(2,7),
-	-- Process Small Bricks Into Large Brick --
-	SmallBrick = 4, -- Amount of Small Bricks Required
-	LargeBrick = 1, -- Large Bricks Received
-}
-
---------------------------------
--- METH PROCESSING AMOUNTS --
---------------------------------
-Config.MethProcessing = {
-	-- Chemical Processing --
-	SulfAcid = 1, -- Amount of Sulfuric Acid Needed for Liquid Mix
-	HydAcid = 1, -- Amount of Hydrochloric Acid Needed for Liquid Mix
-	SodHyd = 1, -- Amount of Sodium Hydroxide Needed for Liquid Mix
-	Meth = math.random(5,12), -- Amount of Meth Recevied From 1 Tray
-}
-
---------------------------------
--- HEROIN PROCESSING AMOUNTS --
---------------------------------
-Config.HeroinProcessing = {
-	Poppy = 2 -- Amount of Poppy Required for 1 Heroin
 }
